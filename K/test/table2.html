@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <title>테이블</title>
+    <style type="text/css">
+        table, td, th{font-size:16px}
+        td, th{border: 1px solid #999}
+        td, th{width:200px; height:100px}
+        .bg{background:#edf3ff;color:#fff}
+    </style>
+</head>
+<body>
+  <table summary="삼성,애플 제품별 판매가격 비교">
+  <caption>제조사별 판매가격</caption>
+  <!--<colgroup>
+     <col>
+     <col span="2" class="bg">
+     <col>
+  </colgroup>-->
+     <thead>
+      <tr>
+          <th>비고</th>
+          <th id="s">삼성</th>
+          <th id="a">애플</th>
+      </tr>
+      </thead>
+      <tfoot>
+          <tr>
+              <th>합계</th>
+              <td>350,000</td>
+              <td>370,000</td>
+          </tr>
+      </tfoot>
+      <tbody>
+      <tr>
+          <th id="p">스마트폰</th>
+          <td headers="s p">160,000</td>
+          <td headers="a p">170,000</td>
+      </tr>
+      <tr>
+          <th id="t">태블릿</th>
+          <td headers="s t">190,000</td>
+          <td headers="a t">200,000</td>
+      </tr>
+      </tbody>
+      
+
+  </table>
+</body>
+</html>
