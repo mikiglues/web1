@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>relative</title>
+    <style type="text/css">
+        #header{width: 800px;height: 150px;background: #ff9900; position:relative;margin: auto;}
+        #nav{width: 200px;height: 400px;backface-visibility: #000; position: absolute; left: 100px;top: 180px; z-index: 2}
+        #content{width: 800px;height: 150px;background: #99cc00; position:relative;}
+        #footer{width: 800px;height: 150px;background: #0099ff; position:relative;}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="nav"></div>
+    </div>
+    <div id="content"></div>
+    <div id="footer"></div>
+</body>
+</html>
