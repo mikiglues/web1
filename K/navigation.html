@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box size</title>
+    <style>
+    ul,li{margin: 0;padding: 0;}
+    li{list-style: none;}
+    .list1{background:#ff7600;}
+    .list2{background:#00d118;}
+    .list3{background:#0093ff;}
+    .list4{background:#5800ff;}
+    .box1{width: 800px;margin: 0 auto 50px;overflow: hidden;}
+    .box1 li{width: 200px;height: 40px; text-align: center;
+        /*padding-top:12px;box-sizing: border-box;*/
+        /*display:table-cell;vertical-align: middle;*/
+        line-height: 40px; float: left;
+        }
+    .box2{width: 400px;margin: 0 auto 50px;overflow: hidden;}
+    .box2 li{width: 190px;height: 90px;text-align: center;line-height: 100px;float: left; margin: 0 10px 10px 0;}
+    .box3 {overflow: hidden;}
+    .box3 li {width: 25%;height: 40px;text-align: center;line-height: 40px;float:left;}
+    </style>
+</head>
+<body>
+    <ul class="box1">
+        <li class="list1">MENU</li>
+        <li class="list2">MENU</li>
+        <li class="list3">MENU</li>
+        <li class="list4">MENU</li>
+    </ul>
+        <ul class="box2">
+        <li class="list1">MENU</li>
+        <li class="list2">MENU</li>
+        <li class="list3">MENU</li>
+        <li class="list4">MENU</li>
+    </ul>
+    <ul class="box3">
+    <li class="list1">MENU</li>
+    <li class="list2">MENU</li>
+    <li class="list3">MENU</li>
+    <li class="list4">MENU</li>
+    </ul>
+</body>
+</html>
